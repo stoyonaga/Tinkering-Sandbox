@@ -1,6 +1,5 @@
-# Youtube-DL Wrapper Script
 
-## Configuration
+## Youtube-DL Wrapper Script
 Welcome to my youtube-dl wrapper script! Please note that the following script was written to interact between wsl2 and a host machine. 
 It can also just as easily be configured to run natively without the requirement of wsl2. 
 
