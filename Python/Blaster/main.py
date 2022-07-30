@@ -8,6 +8,8 @@ def blast(message: io.TextIOWrapper) -> None:
     for i in range(5, 0, -1):
         print("Program will begin in {} seconds...".format(i))
         time.sleep(1)
+        # Line 12 may have to be adapted, depending on your OS. If you are running Linux, replace it with:
+        # clear
         os.system("cls")
     for line in message.readlines():
         if keyboard.is_pressed("Escape"):
