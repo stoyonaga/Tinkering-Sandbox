@@ -21,6 +21,8 @@ def blast(message: io.TextIOWrapper) -> None:
 
 print("========== Welcome to Blaster Version 1.0.0 ==========")
 if not os.path.isfile("lyrics.txt"):
+    # Line 25 may have to be adapted, depending on your OS. If you are running Linux, replace it with:
+    # touch lyrics.txt
     os.system("echo.> lyrics.txt")
     raise Exception("Error: File input does not exist..")
 else:
