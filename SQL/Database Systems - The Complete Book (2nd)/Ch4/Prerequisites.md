@@ -16,13 +16,11 @@ That is, our main focus will be on learning how to develop **entity-relationship
 4. **Edges** are used to connect an entity set to its attributes, and also connect a relationship to its entity sets. There's a little more complexity to this, but we will discuss in the future. 
 
 # Multiplicity of (Binary) E/R Relationships
-
-1. Many-One: i.e., A person has a favourite tv show
-2. One-One: i.e., An electronics company has a best-selling product
-3. Many-Many: i.e., A person has friends
+1. Many-One: i.e., A person has a favourite tv show.
+2. One-One: i.e., An electronics company has a best-selling product.
+3. Many-Many: i.e., A person has friends.
 
 # Subclasses
-
 - Synonymous with what you would expect with the concept of inheritance in programming.
 - The parent class connects to its subclasses by using the, "isa" relationship, rather than our traditional diamond one. 
 
@@ -46,3 +44,8 @@ A weak entity set is used when it requires help from other entity sets, which ar
 - If an entity set is weak, it is represented by a double-border rectangle.
 - If a relationship is supporting, it is represented by a double-border diamond with a rounded arrow.
 
+# Key Concepts for Review
+1. How would we remove attributes from relationships, while also providing an equivalent database schema?
+2. How would we convert a multiway relationship into a set of binary many-one relationships?
+3. Why are the design principles important? Explain the consequences of failing to abide by each rule.
+4. What are some real-world applications, where a weak entity set may be useful and/or applicable? Implement the database schema for your example, and provide the database schema for the original entity-relationship diagram.
