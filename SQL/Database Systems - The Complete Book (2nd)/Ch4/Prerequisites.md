@@ -35,14 +35,13 @@ That is, our main focus will be on learning how to develop **entity-relationship
 
 # Constraints in our E/R Model
 **1. Key Specifics**
-    - Every entity set must have a key. We will stick to the convention of initializing a primary key.
-    - In an inheritance situation, the parent (root) must have all the attributes needed for a key that is sufficient in all of its subclases.
+- Every entity set must have a key. We will stick to the convention of initializing a primary key.
+- In an inheritance situation, the parent (root) must have all the attributes needed for a key that is sufficient in all of its subclases.
 
 **2. Degree Constraints**
-    - Refer to the textbook for more information.
+- Refer to the textbook for more information.
 
 # Weak Entity Sets 
-
 A weak entity set is used when it requires help from other entity sets, which are connected by supporting relationshps. 
 - If an entity set is weak, it is represented by a double-border rectangle.
 - If a relationship is supporting, it is represented by a double-border diamond with a rounded arrow.
