@@ -48,4 +48,4 @@ A weak entity set is used when it requires help from other entity sets, which ar
 1. How would we remove attributes from relationships, while also providing an equivalent database schema?
 2. How would we convert a multiway relationship into a set of binary many-one relationships?
 3. Why are the design principles important? Explain the consequences of failing to abide by each rule.
-4. What are some real-world applications, where a weak entity set may be useful and/or applicable? Implement the database schema for your example, and provide the database schema for the original entity-relationship diagram.
+4. What are some real-world applications where a weak entity set may be useful and/or applicable? Implement the database schema for your example and provide the source code. That is, write a main.sql and drop.sql script for PostgreSQL.
