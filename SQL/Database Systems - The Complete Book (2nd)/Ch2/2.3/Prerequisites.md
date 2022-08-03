@@ -17,10 +17,10 @@
 We can create a relation in SQL, by using the following code template:
 ```sql
 create table table_name(
-column_header1 attr_type,
-column_header2 attr_type,
-column_header3 attr_type,
-column_header4 attr_type
+ column_header1 attr_type,
+ column_header2 attr_type,
+ column_header3 attr_type,
+ column_header4 attr_type
 );
 ```
 
