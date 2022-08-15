@@ -56,3 +56,56 @@ Please remember the following rules:
 - Only the attributes in (4) may be unaggregated in (1), (5).
 
 # Additional Practice
+
+1. Given schema.sql, write a query which returns the sum of price values for each type of item in our product database. Your query should return the following table:
+```
+           type            |        sum
+---------------------------+--------------------
+ Desktop                   |            4389.98
+ Mechanical Keyboard       |             100.93
+ 15GB (2 * 8GB) RAM Sticks |              88.99
+ Mouse Mat                 |              59.99
+ Laptop                    | 2970.8100000000004
+ Gaming Headset            |              49.99
+ Gaming Keyboard           |              59.99
+ 
+ (7 rows)
+```
+
+2. Given schema.sql, write a query which returns a table that contains the most expensive product.
+Your query should return the following table:
+
+```
+                         name                         |  type   |  price  | rating | availability
+------------------------------------------------------+---------+---------+--------+--------------
+ CyberPowerPC Gamer Supreme Liquid Cooled SLC10800CPG | Desktop | 2889.99 |    3.5 |
+(1 row)
+```
+
+3. Given schema.sql, write a query which returns a table that contains the average price of each type of product.
+Your query should return the following table:
+
+```
+---------------------------+-------------------
+ Desktop                   |           2194.99
+ Mechanical Keyboard       |            100.93
+ 15GB (2 * 8GB) RAM Sticks |             88.99
+ Mouse Mat                 |             59.99
+ Laptop                    | 990.2700000000001
+ Gaming Headset            |             49.99
+ Gaming Keyboard           |             59.99
+(7 rows)
+```
+
+4. Given schema.sql, write a query which returns the maximum rating for each type of item in our Product database. Your query should return the following table:
+```
+           type            | rating
+---------------------------+--------
+ Mechanical Keyboard       |      4
+ 15GB (2 * 8GB) RAM Sticks |      4
+ Laptop                    |      4
+ Gaming Headset            |      4
+ Desktop                   |    3.8
+ Gaming Keyboard           |    3.5
+ Mouse Mat                 |      3
+```
