@@ -18,7 +18,7 @@ There are multiple operations that we can apply to a relation, returning a boole
     - This operator will return true if and only if the tuple, S, is in the relation R.
 3. **S ? ALL R**
     - **Note:** The ? is a placeholder for any of the supported SQL comparison operators.
-    - his operator will return true if and only if the conditional operator is true for all tuples in R.
+    - This operator will return true if and only if the conditional operator is true for all tuples in R.
 4. **S * ANY R**
     - **Note:** The ? is a placeholder for any of the supported SQL comparison operators.
     - This operator will return true if and only if the conditional operator is true for at least one tuple in R.
@@ -86,6 +86,7 @@ Your query should return the following table:
 Your query should return the following table:
 
 ```
+            type           |       avg
 ---------------------------+-------------------
  Desktop                   |           2194.99
  Mechanical Keyboard       |            100.93
