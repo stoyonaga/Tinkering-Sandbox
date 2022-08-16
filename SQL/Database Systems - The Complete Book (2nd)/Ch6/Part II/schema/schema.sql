@@ -17,5 +17,5 @@ insert into product values
     ('HyperX Cloud Core + 7.1', 'Gaming Headset', 49.99, 4.0, true),
     ('HyperX Alloy Core RGB Membrane', 'Gaming Keyboard', 59.99, 3.5, false),
     ('Anne Pro 2 60%', 'Mechanical Keyboard', 100.93, 4.0, true),
-    ('Corsair Vengeance RGB PRO DDR4', '15GB (2 * 8GB) RAM Sticks', 88.99, 4.0, true);
+    ('Corsair Vengeance RGB PRO DDR4', '16GB (2 * 8GB) RAM Sticks', 88.99, 4.0, true);
     
