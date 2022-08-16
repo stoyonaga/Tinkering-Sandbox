@@ -63,7 +63,7 @@ Please remember the following rules:
 ---------------------------+--------------------
  Desktop                   |            4389.98
  Mechanical Keyboard       |             100.93
- 15GB (2 * 8GB) RAM Sticks |              88.99
+ 16GB (2 * 8GB) RAM Sticks |              88.99
  Mouse Mat                 |              59.99
  Laptop                    | 2970.8100000000004
  Gaming Headset            |              49.99
@@ -90,7 +90,7 @@ Your query should return the following table:
 ---------------------------+-------------------
  Desktop                   |           2194.99
  Mechanical Keyboard       |            100.93
- 15GB (2 * 8GB) RAM Sticks |             88.99
+ 16GB (2 * 8GB) RAM Sticks |             88.99
  Mouse Mat                 |             59.99
  Laptop                    | 990.2700000000001
  Gaming Headset            |             49.99
@@ -103,7 +103,7 @@ Your query should return the following table:
            type            | rating
 ---------------------------+--------
  Mechanical Keyboard       |      4
- 15GB (2 * 8GB) RAM Sticks |      4
+ 16GB (2 * 8GB) RAM Sticks |      4
  Laptop                    |      4
  Gaming Headset            |      4
  Desktop                   |    3.8
